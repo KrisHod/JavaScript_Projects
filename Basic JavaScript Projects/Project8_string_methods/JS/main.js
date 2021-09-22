@@ -19,5 +19,4 @@ function Cut_Function() {
     var strToNum = parseInt(num, 10);
     var res = strToNum.toPrecision(4);
     document.getElementById("Result").innerHTML = res.toString();
-    console.log(res.toString);
 }
